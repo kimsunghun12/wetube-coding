@@ -2,15 +2,20 @@
   "name": "wetube-coding",
   "version": "1.0.0",
   "description": "Best way to watch videos.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kimsunghun12/wetube-coding.git"
+  },
+  "scripts": {
+    "win": "node index.js"
   },
   "author": "Kim",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kimsunghun12/wetube-coding/issues"
   },
-  "homepage": "https://github.com/kimsunghun12/wetube-coding#readme"
+  "homepage": "https://github.com/kimsunghun12/wetube-coding#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
